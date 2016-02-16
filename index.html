@@ -15,46 +15,19 @@
 <h4 class="h4class">masodik</h4>
 
 <script>
-/*$(document).ready(function () {
-    setInterval(function() {
-        $.post('sec.php', {},
-            function (data, status) {
-                document.getElementById("sec").innerHTML = data;
-            }
-        );
-    }, 30000);
-});
 
 $(document).ready(function () {
-    setInterval(function() {
-        $.post('min.php', {},
-            function (data, status) {
-                document.getElementById("min").innerHTML = data;
-            }
-        );
-    }, 60000);
+
+    var str1 = '1,2,3,4,5';
+    var arr1 = str1.split(',');
+    console.log(str1 + ' - ' + arr1);
+    console.log(typeof str1 + ' - ' + typeof arr1 + ' - ' + arr1.length);
+    var str1 = '';
+    var arr1 = str1.split(',');
+    console.log(str1 + ' - ' + arr1);
+    console.log(typeof str1 + ' - ' + typeof arr1 + ' - ' + arr1.length);
+    console.log('arr1[0]: ' + arr1[1]);
 });
-
-$(document).ready(function () {
-    setInterval(function() {
-        $.post('hour.php', {},
-            function (data, status) {
-                document.getElementById("hour").innerHTML = data;
-            }
-        );
-    }, 3600000);
-});*/
-
-/*$("#b").click(function () {
-    $.post("index.php",
-        {
-            name: "Tomi",
-            location: "PSZ"
-        },
-    function (data, status) {
-        alert(status + " " + data);
-    })
-});*/
 
 </script>
 </body>
